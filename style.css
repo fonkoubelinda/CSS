@@ -11,7 +11,7 @@ body {
     background: url(./assets/img/f.jpg)  center/cover;
 }
 main {
-    height: 400px;
+    min-height: 400px;
     width: 50%;
     box-shadow: rgba(59, 255, 155, 0.59) 0px 1px 7px 0px;
     background: rgba(174, 170, 170, 0.8);
@@ -21,5 +21,27 @@ main {
     border-color: rgb(162, 255, 0);
     border-image: initial;
     border-radius: 20px;
-    padding: 8px;
+    padding: 10px;
+}
+h2{
+    margin:0;
+    text-transform: capitalize;
+}
+.flexbox{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.flexbox ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.flexbox li{
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    background:turquoise;
+    list-style: none;
+    text-align:center;
 }
